@@ -11,7 +11,6 @@ import Footer from '../components/Footer';
 export default function index() {
   return (
     <div>
-      <Nav />
       <Hero />
       <FullStack />
       <Capabilities />

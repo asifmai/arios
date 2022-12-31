@@ -40,7 +40,6 @@ a {
 }
 /* page header */
 .pageHeader {
-  background: #000000;
   padding: 1em 0;
 }
 .headerLink {
@@ -57,9 +56,7 @@ a {
 }
 /* hero */
 .heroSection {
-  background: #000000;
   padding: 4em 0 9em 0;
-  min-height: 100vh;
 }
 .heroHeading {
   font-weight: 800;

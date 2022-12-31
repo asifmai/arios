@@ -1,9 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 import { Container } from 'react-bootstrap';
+import Nav from './Nav';
+
 export default function Hero() {
   return (
-    <div>
+    <div className='Hero' style={{ minHeight: '100vh', backgroundColor: '#000000', paddingTop: '6em' }}>
+      <Nav />
       <div className='heroSection'>
         <Container>
           <p className='heroHeading'>
