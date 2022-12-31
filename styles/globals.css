@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+body {
+  font-family: 'Inter' !important;
+  font-size: 1em;
+  background-color: #f5f5f5 !important;
+}
+
+a {
+  text-decoration: none !important;
+  transition: all ease-in-out 200ms;
+}
+.mainText {
+  font-size: 1em;
+  font-weight: 400;
+}
+.mainBtn {
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  border: 1px solid;
+}
+.mainHeading {
+  font-size: 3em;
+  font-weight: 800;
+  margin-bottom: 0.3em;
+}
+.subHeading {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+/* page header */
+.pageHeader {
+  background: #000000;
+  padding: 1em 0;
+}
+.headerLink {
+  color: white;
+  display: inline-block;
+  margin-right: 2.2em;
+}
+.pageHeader .brandLink {
+  display: inline-block;
+  text-decoration: none;
+}
+.headerLink:hover {
+  transform: scale(0.9);
+}
+/* hero */
+.heroSection {
+  background: #000000;
+  padding: 4em 0 9em 0;
+}
+.heroHeading {
+  font-weight: 800;
+  font-family: syne;
+  font-size: 3.5em;
+  color: white;
+  line-height: 1.3;
+}
+.heroHeading span {
+  color: skyblue;
+}
+.heroSection .mainText {
+  color: #aaafb6;
+  margin: 3em 0;
+  font-size: 1.4em;
+}
+.heroSection .mainBtn.white {
+  color: white;
+  border-color: white;
+  background: #0e0f11;
+}
+.heroSection .mainBtn.white:hover {
+  background-color: white;
+  color: black;
+}
+.heroSection .mainBtn.red {
+  border-color: #ff9090;
+  color: #ff9090;
+  margin-left: 1em;
+}
+.heroSection .mainBtn.red:hover {
+  background-color: #ff9090;
+  color: white;
+}
+/* full stack */
+.fullStack {
+  padding: 15em 0;
+}
+.fullStack .mainText {
+  color: #313131;
+  text-align: start;
+  font-size: 1.1em;
+}
+.fullStack img {
+  width: 100%;
+}
+/* capabilites */
+.capabilities {
+  padding: 5em 0;
+}
+.capabilities .subHeading {
+  padding-bottom: 1em;
+  font-weight: 800;
+  border-bottom: 2px solid #0e0f11;
+  margin-bottom: 1em;
+}
+.work {
+  padding: 5em 0;
+}
+.capabilities .mainText {
+  color: #313131;
+  font-size: 0.8em;
+}
+/* details */
+.detail {
+  padding: 7em 0;
+}
+.detail .detailCard {
+  text-align: center;
+  margin-top: 7em;
+}
+.detail .detailCard .mainHeading {
+  font-family: syne;
+  font-weight: 800;
+  line-height: 1.6;
+  font-size: 1.2em;
+  margin-bottom: 3em;
+}
+.detail .detailCard .mainHeading.odd {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  line-height: 1.1;
+}
+.detail .mainText {
+  font-weight: 300;
+}
+/* project */
+.project {
+  padding: 7em 0;
+}
+.project img {
+  width: 100%;
+  border: 2px solid black;
+  margin-bottom: 1.8em;
+}
+.project .projectCard {
+  margin-bottom: 5em;
+}
+.project .projectCard .subHeading {
+  font-weight: 800;
+  font-size: 1.5em;
+}
+.project .projectCard .mainText {
+  margin: 1em 0;
+  color: #313131;
+  font-size: 1.1em;
+}
+.project .projectCard .trend {
+  display: inline-block;
+  padding: 0.5em 0.8em;
+  background-color: #c0efff;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  margin-right: 1em;
+  font-family: 'Inconsolata';
+  color: #0e0f11;
+  font-weight: 500;
+}
+.project .projectCard .trend:hover {
+  transform: scale(1.1);
+}
+/* contact */
+.contact {
+  padding: 7em 0 9em 0;
+  border-top: 1px solid #313131;
+}
+.contact .contactHeader {
+  text-align: center;
+}
+.contact .contactHeader h1 {
+  line-height: 0.8;
+  font-weight: 800;
+  font-family: syne;
+  margin-bottom: 0.7em;
+}
+.contact input {
+  font-family: syne;
+  font-weight: 800;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 2em 1em;
+  margin-top: 2em;
+  border-bottom: 1px solid #929292;
+  background-color: #f5f5f5;
+}
+.sendBtn {
+  text-align: center;
+}
+.sendBtn .send {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #c0efff;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  margin-top: 3em;
+  color: black !important;
+}
+.sendBtn .send:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  background-image: url('/img/footer.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 2em 1em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+.footer .mainText {
+  font-weight: 200;
+  font-size: 0.8em;
+  font-family: 'Ubuntu';
+}
+.footer a {
+  color: white;
+}
+.footerLink {
+  margin-right: 5em;
+}
+.footerLink a {
+  display: inline-block;
+  margin: 0 4em;
+  font-weight: 400;
+  font-family: 'Ubuntu';
+}
+.footerLink a:hover {
+  transform: scale(0.9);
+}
+.footer .footerRight {
+  text-align: end;
+}
+.footer .footerLeft .copyRight {
+  padding: 0.8em 0 0.8em 4em;
+  border-left: 2px solid #ffffff40;
+  margin-left: 7em;
+}
+.footer .footerLeft .copyRight img {
+  margin-right: 0.5em;
+}
+.footer .socailLink {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 1.8;
+  margin-right: 2em;
+  background: #ffffff;
+  border-radius: 5.62807px;
+}
+.footer .socailLink:hover {
+  transform: scale(1.1);
+}
+
+/* media querry */
+@media (max-width: 992px) {
+  .heroHeading {
+    font-size: 1.5em;
+  }
+  .trend.last {
+    margin-top: 1em;
+    width: fit-content;
+    display: block;
+  }
+  .footer .footerRight {
+    text-align: start;
+  }
+  .footer span {
+    display: block;
+    margin-top: 2em;
+  }
+  .footerLink a {
+    display: inline;
+  }
+  .footer .footerLeft .copyRight {
+    margin-left: 0;
+    padding: 0.4em 0 0.4em 2em;
+  }
+  .pageHeader .brandLink img {
+    width: 160px;
+  }
+  .headerLink {
+    margin-right: 1.5em;
+  }
+  .work {
+    padding-bottom: 0;
+  }
+  .detail {
+    padding-top: 0;
+  }
+  .fullStack {
+    padding: 5em 0;
+  }
+  .footerLink a {
+    margin: 0 1.2em;
+  }
+  .contact .contactHeader h1,
+  .mainHeading,
+  .detail .detailCard .mainHeading.odd {
+    font-size: 1.5em;
+  }
+}
