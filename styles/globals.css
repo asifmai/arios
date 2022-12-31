@@ -222,9 +222,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  padding: 2em 1em;
-  padding-left: 2em;
-  padding-bottom: 1em;
+  padding: 2em;
 }
 .footer .mainText {
   font-weight: 200;

@@ -15,10 +15,10 @@ export default function Footer() {
         <Container fluid>
           <Row>
             <Col className='footerLeft'>
-              <Image src={footerLogo} alt={''} />
+              <Image src={footerLogo} alt={''} style={{ transform: 'translateY(6px)' }} />
               <span className='mainText'>- Web Design and creation</span>
               <span className='mainText copyRight'>
-                <Image src={copyRight} alt={''} />
+                <Image src={copyRight} alt={''} style={{ transform: 'translateY(-2px)' }} />
                 Copyright Airos Media, All right reserved
               </span>
             </Col>
