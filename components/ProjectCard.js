@@ -2,11 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const toTheTop = (e) => {
-  e.preventDefault();
-  window.scrollTo(0, 0);
-};
-
 function ProjectCard({ image, title, desc, webdesign, webdevelopment, landingpage, uidesign }) {
   return (
     <div className='projectCard'>
@@ -14,24 +9,24 @@ function ProjectCard({ image, title, desc, webdesign, webdevelopment, landingpag
       <h1 className='subHeading'>{title}</h1>
       <p className='mainText' dangerouslySetInnerHTML={{ __html: desc }}></p>
       {webdesign && (
-        <Link href='#' className='trend' onClick={toTheTop}>
+        <span href='#' className='trend'>
           Web Design
-        </Link>
+        </span>
       )}
       {webdevelopment && (
-        <Link href='#' className='trend' onClick={toTheTop}>
+        <span href='#' className='trend'>
           Web Devlopment
-        </Link>
+        </span>
       )}
       {landingpage && (
-        <Link href='#' className='trend' onClick={toTheTop}>
+        <span href='#' className='trend'>
           Landing Page
-        </Link>
+        </span>
       )}
       {uidesign && (
-        <Link href='#' className='trend' onClick={toTheTop}>
+        <span href='#' className='trend'>
           UI/UX Design
-        </Link>
+        </span>
       )}
     </div>
   );
