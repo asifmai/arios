@@ -14,7 +14,7 @@ export default function Footer() {
       <div className='footer'>
         <Container fluid>
           <Row>
-            <Col lg={6} className='footerLeft'>
+            <Col className='footerLeft'>
               <Image src={footerLogo} alt={''} />
               <span className='mainText'>- Web Design and creation</span>
               <span className='mainText copyRight'>
@@ -22,7 +22,7 @@ export default function Footer() {
                 Copyright Airos Media, All right reserved
               </span>
             </Col>
-            <Col lg={6} className='footerRight'>
+            {/* <Col lg={6} className='footerRight'>
               <span className='footerLink'>
                 <Link href={''}>Portfolio</Link>
                 <Link href={''}>Process</Link>
@@ -40,7 +40,7 @@ export default function Footer() {
                   <Image src={ln} />
                 </Link>
               </span>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>
