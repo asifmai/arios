@@ -5,7 +5,7 @@ import Nav from './Nav';
 
 export default function Hero() {
   return (
-    <div className='Hero' style={{ minHeight: '100vh', backgroundColor: '#000000', paddingTop: '6em' }}>
+    <div className='Hero' style={{ minHeight: '100vh', backgroundColor: '#000000', paddingTop: '3em' }}>
       <Nav />
       <div className='heroSection'>
         <Container>
